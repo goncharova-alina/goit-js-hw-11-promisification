@@ -16,7 +16,7 @@ const randomIntegerFromInterval = (min, max) => {
         }
       }, delay);
     });
-  };
+   };
     
   const logSuccess = ([id, time]) => {
     console.log(`Transaction ${id} processed in ${time}ms`);
